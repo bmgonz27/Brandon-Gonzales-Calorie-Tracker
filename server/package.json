@@ -1,0 +1,17 @@
+{
+  "name": "calorie-tracker-server",
+  "version": "1.0.0",
+  "description": "Express REST API for the calorie tracker",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "pg": "^8.23.1"
+  }
+}

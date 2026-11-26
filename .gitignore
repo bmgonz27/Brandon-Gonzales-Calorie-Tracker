@@ -1,0 +1,14 @@
+# Installed packages: huge, and anyone can recreate them with `npm install`
+node_modules/
+
+# Secrets! Never commit these.
+.env
+
+# Build output
+dist/
+
+# Editor / OS clutter
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
